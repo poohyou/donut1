@@ -236,6 +236,9 @@ img {
   justify-content: center;
   align-items: center;
 }
+.socials__img {
+  height: 16px;
+}
 .socials__img:not(:last-child) {
   margin-right: 16px;
 }
