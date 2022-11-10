@@ -7,12 +7,15 @@
 
 // COMPONENTS
 
-@import "./components/btn";
-@import "./components/logo";
+@import "./components/modal/btn";
+@import "./components/modal/logo";
+
+
+@import "./components/layouts/header";
 
 
 
-// LAYOUTS
 
-@import "./components/header";
+
+
 
