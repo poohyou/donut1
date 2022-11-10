@@ -1,5 +1,8 @@
 
 
+// =============== ПОСИЛАННЯ ЯКІР
+
+
 .btn-register {
     display: flex;
     justify-content: center;
@@ -35,45 +38,40 @@
            
             }
 
+         @media screen and (min-width: 768px){
+                font-size: 18px;
+                line-height: 1.27px;
+            
+                padding: 0px 46px;
+            
+                  
+                    
+                }
+            
+            
+         @media screen and (min-width: 1280px){
+                width: 158px;
+                height: 45px;
+                font-size: 24px;
+                line-height: 1.25;
+            
+                padding: 0px 44px;
+            
+                   
+                }
+
         
     }
    
 
 
- 
-
-
-
-
-@media screen and (min-width: 768px){
-    font-size: 18px;
-    line-height: 1.27px;
-
-    padding: 0px 46px;
-
-      
-        
-    }
-
-
-@media screen and (min-width: 1280px){
-    font-size: 24px;
-    line-height: 1.25;
-
-    padding: 0px 44px;
-
-       
-    }
-
 }
 
 
 
-.btn-register:hover {
-    color: var(#876655);
+.btn-register--color:hover {
+    background-color: #876655;
 }
-
-
 
 
 
@@ -83,48 +81,69 @@
 
 
 .btn-send {
-    background: var(#AB816C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 25px;
 
     font-family: 'Caveat Brush';
     font-style: normal;
     font-weight: 400;
-   
 
 
-    color: var(#FFFFFF);
+    &--color {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        color: #FFFFFF;
 
-@media screen and (min-width: 320px) {
-    font-size: 18px;
-    line-height: 1.27px;
+        
+        background-color: #AB816C;
 
-    padding: 0px 57px;
-   
-    }
+        @media screen and (min-width: 320px) {
+            width: 145px;
+            height: 40px;
+            border-radius: 25px;
+        
+        
+            font-size: 18px;
+            line-height: 1.27px;
+        
+            padding: 0px 57px;
+           
+            }
 
-@media screen and (min-width: 768px){
-    font-size: 18px;
-    line-height: 1.27px;
+         @media screen and (min-width: 768px){
+                font-size: 18px;
+                line-height: 1.27px;
+            
+                padding: 0px 57px;
+            
+                  
+                    
+                }
+            
+            
+         @media screen and (min-width: 1280px){
+                width: 158px;
+                height: 45px;
+                font-size: 24px;
+                line-height: 1.25;
+            
+                padding: 0px 67px;
+            
+                   
+                }
 
-    padding: 0px 57px;
-
-      
         
     }
-
-
-@media screen and (min-width: 1280px){
-    font-size: 24px;
-    line-height: 1.25;
-
-    padding: 0px 67px;
-
-       
-    }
+   
 
 }
 
-.btn-send:hover {
-    color: var(#876655);
+
+.btn-send--color:hover {
+    background-color: #876655;
 }
