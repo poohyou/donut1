@@ -69,7 +69,8 @@
 
 
 
-.btn-register--color:hover {
+.btn-register--color:hover,
+.btn-register--color:focus {
     background-color: #876655;
 }
 
@@ -144,6 +145,7 @@
 }
 
 
-.btn-send--color:hover {
+.btn-send--color:hover,
+.btn-send--color:focus {
     background-color: #876655;
 }

@@ -133,7 +133,8 @@ img {
   }
 }
 
-.btn-register--color:hover {
+.btn-register--color:hover,
+.btn-register--color:focus {
   background-color: #876655;
 }
 
@@ -180,7 +181,8 @@ img {
   }
 }
 
-.btn-send--color:hover {
+.btn-send--color:hover,
+.btn-send--color:focus {
   background-color: #876655;
 }
 
@@ -240,6 +242,9 @@ img {
 .socials__img--color {
   fill: #2E2520;
 }
+.socials__img--color:hover, .socials__img--color:focus {
+  fill: #876655;
+}
 
 .navigation {
   display: none;
@@ -276,6 +281,9 @@ img {
     line-height: 1.22;
     color: #2E2520;
     gap: 20px;
+  }
+  .navigation__dec:hover {
+    color: #876655;
   }
 }
 @media screen and (min-width: 320px) {

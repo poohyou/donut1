@@ -39,7 +39,7 @@
        display: none;
     }
 
-       .navigation {
+    .navigation {
         display: flex;
         padding-left: 339px;
         padding-top: 58px;
@@ -54,8 +54,10 @@
         color: #2E2520;
         gap: 20px;
 
-       }
-    
+        &__dec:hover {
+            color:#876655;
+        }
 
+       }
 
 }

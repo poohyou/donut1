@@ -15,5 +15,12 @@
    &__img--color {
     fill: #2E2520;;
    }
+
+   &__img--color:hover,
+   &__img--color:focus {
+      fill: #876655;
+     }
    
 }
+
+
