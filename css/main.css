@@ -211,4 +211,29 @@ img {
 }
 .socials__img--color {
   fill: #2E2520;
+}
+
+.navigation {
+  display: none;
+}
+
+@media screen and (min-width: 320px) {
+  .burger {
+    position: absolute;
+    width: 30px;
+    height: 16px;
+    top: 16px;
+    right: 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .burger {
+    top: 35px;
+    right: 0px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .burger {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
