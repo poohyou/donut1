@@ -75,6 +75,26 @@
 @media screen and (min-width: 1280px) {
     .hero {
         padding-top: 40px;
+
+        &__title {
+            width: 490px;
+
+            font-size: 64px;
+            line-height: 1; 
+
+            margin-bottom: 16px;
+        }
+
+        &__text {
+            font-size: 24px;
+            line-height: 1.2px;
+
+            margin-bottom: 32px;
+        }
+    }
+
+    .btn-register__hero {
+        margin-bottom: 32px;
     }
 
 
