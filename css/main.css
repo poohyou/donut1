@@ -309,7 +309,14 @@ img {
 }
 @media screen and (min-width: 768px) {
   .hero {
+    align-items: flex-start;
     padding-top: 99px;
+  }
+  .hero__title {
+    text-align: left;
+  }
+  .btn-register__hero {
+    margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 1280px) {
