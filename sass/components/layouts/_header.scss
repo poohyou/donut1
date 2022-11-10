@@ -37,7 +37,25 @@
 @media screen and (min-width: 1280px) {
     .burger {
        display: none;
+    }
+
+       .navigation {
+        display: flex;
+        padding-left: 339px;
+        padding-top: 58px;
+        padding-bottom: 81px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.22;
+
+        color: #2E2520;
+        gap: 20px;
+
+       }
     
 
-}
+
 }
