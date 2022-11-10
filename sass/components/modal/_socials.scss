@@ -1,0 +1,19 @@
+
+
+
+.socials {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   
+
+   &__img:not(:last-child) {
+    margin-right: 16px;
+   }
+
+   &__img--color {
+    fill: #2E2520;;
+   }
+   
+}
