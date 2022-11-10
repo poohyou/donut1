@@ -1,7 +1,16 @@
 
 
 
+.more,
+.less {
+font-family: 'Caveat Brush';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
 
+color: #AB816C;
+}
 
 
 
@@ -20,12 +29,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+    
 
-    .about__pic {
+    &__pic {
         margin-bottom: 16px;
     }
-    .about__title {
+
+    &__img {
+        width: 100%;
+    }
+
+    &__title {
         text-align: center;
         font-size: 24px;
         line-height: 30px;
@@ -33,7 +47,7 @@
         margin-bottom: 8px;
     }
 
-    .about__text {
+    &__text {
         width: 280px;
           
         font-family: 'Montserrat';
@@ -42,7 +56,13 @@
 
         margin: 0;
     }
-  
+
+
+   
+
+    
+
+}
 
 }
 

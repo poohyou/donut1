@@ -259,13 +259,13 @@ img {
     width: 30px;
     height: 16px;
     top: 16px;
-    right: 0px;
+    right: 5px;
   }
 }
 @media screen and (min-width: 768px) {
   .burger {
     top: 32px;
-    right: 0px;
+    right: 5px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -349,6 +349,16 @@ img {
     margin-bottom: 32px;
   }
 }
+.more,
+.less {
+  font-family: "Caveat Brush";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #AB816C;
+}
+
 @media screen and (min-width: 320px) {
   .about {
     display: flex;
@@ -358,6 +368,9 @@ img {
   }
   .about__pic {
     margin-bottom: 16px;
+  }
+  .about__img {
+    width: 100%;
   }
   .about__title {
     text-align: center;
