@@ -7,26 +7,40 @@
     .hero {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         padding-top: 83px;
 
         &__title {
+            text-align: center;
             width: 250px;
 
             font-size: 30px;
             line-height: 1.26;
+
+            margin-bottom: 8px;
         
         }
 
         &__text {
-         display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
          height: 20px;
 
         font-weight: 500;
         font-size: 16px;
         line-height: 1.25px;
+
+        margin-bottom: 32px;
         }
 
+    }
+
+    .btn-register__hero {
+        margin-bottom: 40px;
     }
 
 }
