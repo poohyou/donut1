@@ -165,9 +165,21 @@
 
 @media screen and (min-width: 768px){
     .program { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+        
 
         &__first {
             margin-bottom: 0px;
+        }
+
+        &__second {
+            width: 100%;
+            justify-content: flex-end;
+
         }
 
 
@@ -176,6 +188,26 @@
             width: 336px;
         }
 
+    }
+
+    .program-donut {
+        width: 152px;
+        height: 152px;
+
+
+        &__pic {
+            width: 90px;
+            height: 90px;
+                
+               
+                left: 30px;
+                top: -40px;
+        }
+
+
+        &__direction {
+            margin-top: 40px;
+        }
     }
   
 }

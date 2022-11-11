@@ -528,11 +528,33 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
+  .program {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .program__first {
     margin-bottom: 0px;
   }
+  .program__second {
+    width: 100%;
+    justify-content: flex-end;
+  }
   .program__text {
     width: 336px;
+  }
+  .program-donut {
+    width: 152px;
+    height: 152px;
+  }
+  .program-donut__pic {
+    width: 90px;
+    height: 90px;
+    left: 30px;
+    top: -40px;
+  }
+  .program-donut__direction {
+    margin-top: 40px;
   }
 }
 @media screen and (min-width: 1280px) {
