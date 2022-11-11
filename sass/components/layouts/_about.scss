@@ -55,13 +55,35 @@ color: #AB816C;
         line-height: 1.25;
 
         margin: 0;
+        margin-bottom: 16px;
     }
 
 
 }
 
 
-        #more {display: none;}
+        #more {
+            display: none;
+        }
+
+        #myBtn {
+            font-family: 'Caveat Brush';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+
+            color: #AB816C;
+            background-color: white;
+            border: 0;
+
+            padding: 0;
+            
+
+           
+        }
+        
+    
 
 
 }
