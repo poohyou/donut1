@@ -385,4 +385,7 @@ img {
     line-height: 1.25;
     margin: 0;
   }
+  #more {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
