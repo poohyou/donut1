@@ -382,6 +382,7 @@ img {
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 8px;
+    padding-top: 16px;
   }
   .about__text {
     width: 280px;
@@ -397,10 +398,16 @@ img {
     flex-direction: row;
     justify-content: space-between;
     width: 768px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .about__text {
+    width: 336px;
   }
   .about__title {
     text-align: left;
     margin-bottom: 16px;
+    padding-top: 0;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -412,6 +419,8 @@ img {
   }
   .about {
     justify-content: space-around;
+    padding-top: 110px;
+    padding-bottom: 40px;
   }
   .about__text--deck {
     display: inline;
@@ -424,6 +433,42 @@ img {
   .about__text {
     font-size: 18px;
     line-height: 1.22;
+    width: 392px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  #programmore {
+    display: none;
+  }
+  #programBtn {
+    font-family: "Caveat Brush";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #AB816C;
+    background-color: white;
+    border: 0;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 320px) {
+  .program__text {
+    width: 280px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .program__text {
+    width: 336px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .program__text {
     width: 392px;
   }
 }/*# sourceMappingURL=main.css.map */
