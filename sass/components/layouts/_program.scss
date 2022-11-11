@@ -43,6 +43,19 @@
         justify-content: center;
         align-items: center;
 
+        &__first {
+            margin-bottom: 45px;
+        }
+
+
+        &__second {
+            display: flex;
+            flex-wrap: wrap;
+
+            width: 280px;
+            gap: 20px;
+        }
+
 
 
         &__text {
@@ -59,6 +72,87 @@
        
         }
     }
+
+
+
+    .program-donut {
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: 130px;
+
+        background: #FEF3E4;
+        box-shadow: 0px 4px 4px rgba(171, 129, 108, 0.25);
+        border-radius: 50%;
+
+
+        &__direction {
+            margin-top: 24px;
+        }
+
+
+    
+        
+        
+
+        &__title {
+            font-size: 18px;
+            line-height: 1.27;
+
+            margin-top: 48px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 1.21;
+
+            margin-top: 4px;
+        }
+
+        &__svg {
+            width: 19px;
+            height: 19px;
+
+            margin-top: 8px;
+        }
+
+
+
+
+    }
+
+
+    .program-donut__pic {
+        position: absolute;
+
+        width: 75px;
+        height: 80px;
+
+        background-color: transparent;
+
+        top: -33px;
+        left: 25px;
+
+        animation-name: spin;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        
+    }
+
+    @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+      
+        100% {
+          transform: rotate(360deg);
+        }
+      }
 }
 
 
@@ -71,6 +165,10 @@
 
 @media screen and (min-width: 768px){
     .program { 
+
+        &__first {
+            margin-bottom: 0px;
+        }
 
 
 
