@@ -1,16 +1,29 @@
 
 
 
-.more,
-.less {
-font-family: 'Caveat Brush';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
 
-color: #AB816C;
+@media screen and (max-width: 1279px) {
+
+      #more {
+    display: none;
 }
+
+       #myBtn {
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #AB816C;
+    background-color: white;
+    border: 0;
+
+    padding: 0;
+     
+}
+}
+
 
 
 
@@ -62,30 +75,6 @@ color: #AB816C;
 }
 
 
-        #more {
-            display: none;
-        }
-
-        #myBtn {
-            font-family: 'Caveat Brush';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 23px;
-
-            color: #AB816C;
-            background-color: white;
-            border: 0;
-
-            padding: 0;
-            
-
-           
-        }
-        
-    
-
-
 }
 
 
@@ -94,7 +83,19 @@ color: #AB816C;
 
 
 @media screen and (min-width: 768px){
-    
+    .about {
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: 768px;
+
+        &__title {
+            text-align: left;
+
+            margin-bottom: 16px;
+        }
+      
+    }
 }
 
 
@@ -103,6 +104,40 @@ color: #AB816C;
 
 
 @media screen and (min-width: 1280px) {
+    #myBtn {
+        display: none;
+    }
+
+    #more {
+        display: inline;
+    }
+
+
+    .about {
+        justify-content: space-around;
+
+
+
+
+    &__text--deck {
+        display: inline;
+    }
+
+    &__title {
+        font-size: 36px;
+        line-height: 1.8;
+
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 1.22;
+
+        width: 392px;
+
+    }
     
+}
 
 }
