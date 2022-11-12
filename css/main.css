@@ -539,6 +539,7 @@ img {
   .program__second {
     width: 100%;
     justify-content: flex-end;
+    padding-top: 50px;
   }
   .program__text {
     width: 336px;
@@ -556,6 +557,21 @@ img {
   .program-donut__direction {
     margin-top: 40px;
   }
+  .program-donut__title {
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 48px;
+  }
+  .program-donut__text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: 17px;
+  }
+  .program-donut__svg {
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+  }
 }
 @media screen and (min-width: 1280px) {
   #programBtn {
@@ -564,10 +580,31 @@ img {
   #programmore {
     display: inline;
   }
+  .program {
+    justify-content: space-around;
+  }
+  .program__second {
+    justify-content: center;
+    flex-direction: row;
+    width: 500px;
+    column-gap: 140px;
+  }
   .program__text {
     font-size: 18px;
     line-height: 1.22;
     width: 392px;
     margin-bottom: 16px;
+  }
+  .program-donut {
+    width: 180px;
+    height: 180px;
+  }
+  .program-donut__pic {
+    width: 100px;
+    height: 100px;
+    left: 40px;
+  }
+  .program-donut__direction {
+    margin-top: 100px;
   }
 }/*# sourceMappingURL=main.css.map */

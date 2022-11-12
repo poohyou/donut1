@@ -180,6 +180,8 @@
             width: 100%;
             justify-content: flex-end;
 
+            padding-top: 50px;
+
         }
 
 
@@ -193,6 +195,8 @@
     .program-donut {
         width: 152px;
         height: 152px;
+
+       
 
 
         &__pic {
@@ -208,6 +212,29 @@
         &__direction {
             margin-top: 40px;
         }
+
+        &__title {
+            font-size: 24px;
+            line-height: 1.25;
+
+            margin-top: 48px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 1.25;
+
+            margin-top: 17px;
+        }
+
+        &__svg {
+            width: 25px;
+            height: 25px;
+
+            margin-top: 8px;
+        }
+
+       
     }
   
 }
@@ -229,6 +256,18 @@
 
 
     .program { 
+        justify-content: space-around;
+
+        &__second {
+            justify-content: center;
+            flex-direction: row;
+
+            width: 500px;
+            column-gap: 140px;
+
+            
+        }
+    
 
 
 
@@ -242,7 +281,29 @@
 
     }
 
+    .program-donut {
+        width: 180px;
+        height: 180px;
+
+       
+
+        &__pic {
+            width: 100px;
+            height: 100px;
+                
+               
+                left: 40px;
+        }
+
+        &__direction {
+            margin-top: 100px;
+        }
+
+       
+
+       
 
 
+}
 
 }
