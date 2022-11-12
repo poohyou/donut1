@@ -607,4 +607,34 @@ img {
   .program-donut__direction {
     margin-top: 100px;
   }
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+}
+.swiper-slide__pic {
+  width: 280px;
+  height: 280px;
+  margin-top: 12px;
+}
+.swiper-slide__star {
+  width: 136px;
+  height: 24px;
+  margin-top: 8px;
+}
+.swiper-slide__name {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  margin-top: 8px;
+}
+.swiper-slide__text {
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  margin-top: 8px;
 }/*# sourceMappingURL=main.css.map */

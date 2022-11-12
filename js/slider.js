@@ -1,0 +1,4 @@
+
+new Swiper('.image-slider');
+
+
