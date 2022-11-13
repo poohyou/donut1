@@ -1,4 +1,9 @@
-
+.review-conteiner {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 
 .reviwes {
     display: flex;
@@ -7,6 +12,10 @@
     align-items: center;
 
     width: 280px;
+
+    &__hidden {
+        display: none;
+    }
 
 
     &__pic {
@@ -40,10 +49,253 @@
     text-align: center;
 
     margin-top: 8px;
+    margin-bottom: 32px;
    }
 
+   &__text--tablet {
+    display: none;
+   }
 
+   &__text--desc {
+    display: none;
+}
+
+   &__pagination {
+    position: relative;
+
+    font-size: 14px;
+    line-height: 1.21;
+
+    color: #AB816C;
+
+   }
+
+   &__pagination::after {
+    position: absolute;
+
+    content: '';
+
+    width: 35px;
+    left: 46px;
+    top: 50%;
+
+
+
+    border: 1px solid #AB816C;
+    transform: rotate(180deg);
+   }
+
+   &__pagination::before {
+    position: absolute;
+
+    content: '';
+
+    width: 35px;
+    right: 46px;
+    top: 50%;
+
+
+
+    border: 1px solid #AB816C;
+    transform: rotate(180deg);
+
+   }
+
+   &__pagination:hover {
+    color: #876655;;
+   }
+
+   
 
 
 } 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){ 
+
+    .review-conteiner {
+        position: relative;
+
+        padding-top: 50px;
+    }
+
+    .reviwes {
+        width: 100%;
+
+        &__hidden {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        &__hidden--one {
+            position: absolute;
+
+            left: 32px;
+            top: 70px;
+        }
+
+        &__hidden--two {
+            position: absolute;
+
+            right: 32px;
+            top: 80px;
+        }
+      
+    
+    
+        &__pic {
+        width: 336px;
+        height: 336px;
+
+        margin-top: 44px;
+        }
+
+      
+
+        &__text {
+            display: none;
+           
+
+        }
+
+        
+
+        &__text--tablet {
+            display: block;
+            align-items: center;
+            text-align: center;
+
+            margin-top: 20px;
+
+            font-size: 16px;
+            line-height: 1.25;
+        
+            margin-bottom: 32px;
+        }
+
+        &__pic--size {
+            width: 151px;
+            height: 151px;
+        }
+
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1279px){ 
+
+    .review-conteiner {
+
+        padding-top: 75px;
+    }
+
+    
+
+
+    .reviwes {
+        width: 100%;
+
+      
+
+        &__text--tablet {
+            display: none;
+        }
+
+        &__text--desc {
+            display: none;
+        }
+
+        &__text--desc {
+            display: block;
+            align-items: center;
+            text-align: center;
+
+            margin-top: 20px;
+
+            font-size: 18px;
+            line-height: 1.22;
+        
+            margin-bottom: 32px;
+        }
+
+        &__star--desc {
+            position: absolute;
+ 
+            left: 195px;
+            bottom: 175px;
+            }
+
+      
+
+        &__hidden--one {
+           left: 110px;
+           top: 160px;
+        }
+
+        &__hidden--two {
+            right: 100px;
+            top: 185px;
+            
+        }
+      
+    
+    
+        &__pic {
+            width: 394px;
+            height: 394px;
+
+            margin-top: 202px;
+        }
+
+        &__name {
+            font-size: 16px;
+            line-height: 1.25;
+
+        }
+
+        &__name--desc {
+            display: inline-block;
+            width: 350px;
+        }
+
+     
+
+        &__pic--size {
+            width: 285px;
+            height: 285px;
+           
+        }
+
+
+
+}
+
+
+}
