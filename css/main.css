@@ -288,6 +288,30 @@ img {
     color: #876655;
   }
 }
+@media screen and (max-width: 767px) {
+  .backheader {
+    background-image: url(/images/mob/back/bg.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top;
+    background-size: 100% 18%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .backheader {
+    background-image: url(/images/tablet/back/bg.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top;
+    background-size: 100% 33%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .backheader {
+    background-image: url(/images/desc/back/bg.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top;
+    background-size: 100% 37.5%;
+  }
+}
 @media screen and (min-width: 320px) {
   .hero {
     display: flex;
@@ -376,6 +400,7 @@ img {
   }
   .about__img {
     width: 100%;
+    background-color: transparent;
   }
   .about__title {
     text-align: center;
