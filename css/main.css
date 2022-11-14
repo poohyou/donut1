@@ -129,7 +129,10 @@ img {
     height: 45px;
     font-size: 24px;
     line-height: 1.25;
-    padding: 8px 44px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 44px;
+    padding-right: 44px;
   }
 }
 
@@ -966,5 +969,46 @@ img {
   .registration__modal {
     width: 234px;
     margin-right: 60px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .registration__fool {
+    margin-top: 16px;
+  }
+  .registration__head {
+    height: 200px;
+  }
+  .registration__fool {
+    justify-content: center;
+    width: 822px;
+  }
+  .registration__time {
+    font-size: 20px;
+    line-height: 1.2;
+    width: 140px;
+  }
+  .registration__address {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 32px;
+  }
+  .registration__prise {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .registration__text {
+    font-size: 18px;
+    line-height: 1.22;
+    padding-top: 54px;
+  }
+  .registration__bottom {
+    padding-bottom: 54px;
+    padding-left: 32px;
   }
 }/*# sourceMappingURL=main.css.map */
