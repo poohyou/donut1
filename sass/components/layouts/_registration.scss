@@ -3,57 +3,22 @@
 
 .registration {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+ 
 
     &__form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
         background: #FFFFF9;
     }
 
     &__fool {
-        display: block;
         background: #FFFFF9;
         border-radius: 150px 150px 0px 0px;
         box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
-
-        width: 266px;
-
-        padding-bottom: 32px;
-       
+ 
     }
 
  
-
-
-    &__head {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    &__bottom {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    
-
-   
-
     &__time {
         font-weight: 500;
-
         margin-top: 20px;
         
     }
@@ -76,14 +41,6 @@
         font-size: 16px;
         line-height: 1.25;
 
-        width: 255px;
-
-        text-align: center;
-
-        padding-top: 8px;
-        margin-bottom: 20px;
-
-        
         border-top: 1px solid rgba(171, 129, 108, 0.5);
     }
 
@@ -93,7 +50,6 @@
         padding: 0;
         background: #FFFFF9;
         border: 0;
-        width: 250px;
         outline: 0;
 
 
@@ -105,11 +61,6 @@
 
          color: #AB816C;
          border-bottom: 1px solid #AB816C;
-       
-
-         margin-bottom: 20px;
-         
-
         
     }
 
@@ -145,6 +96,68 @@
 
     .registration {
         padding-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+        }
+
+        &__fool {
+            display: block;    
+            width: 266px;
+    
+            padding-bottom: 32px;
+        }
+
+        &__head {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        &__bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        &__text {
+            width: 255px;
+            text-align: center;
+    
+            padding-top: 8px;
+            margin-bottom: 20px;
+        }
+
+        &__name--dec {
+            width: 100%;
+ 
+            margin-bottom: 20px;
+            
+        }
+
+        &__modal {
+           display: flex;
+           flex-direction: column;
+           width: 100%;
+           align-items: center;
+           justify-content: center;
+        }
+
+        &__group {
+            width: 260px;
+
+            padding: 0px 8px;
+        }
 
 
      
@@ -189,6 +202,7 @@
         }
 
         &__bottom {
+           
             padding-left: 24px;
         }
 
@@ -205,8 +219,16 @@
         }
 
         &__form {
+            display: flex;
+            flex-direction: row;
+            
             background: #FFFFF9;
         }
+
+        &__name--dec { 
+            margin-bottom: 18px;
+        }
+
         
 
 

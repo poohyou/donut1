@@ -814,38 +814,13 @@ img {
     height: 285px;
   }
 }
-.registration {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .registration__form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background: #FFFFF9;
 }
 .registration__fool {
-  display: block;
   background: #FFFFF9;
   border-radius: 150px 150px 0px 0px;
   box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
-  width: 266px;
-  padding-bottom: 32px;
-}
-.registration__head {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.registration__bottom {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .registration__time {
   font-weight: 500;
@@ -863,17 +838,12 @@ img {
 .registration__text {
   font-size: 16px;
   line-height: 1.25;
-  width: 255px;
-  text-align: center;
-  padding-top: 8px;
-  margin-bottom: 20px;
   border-top: 1px solid rgba(171, 129, 108, 0.5);
 }
 .registration__name--dec {
   padding: 0;
   background: #FFFFF9;
   border: 0;
-  width: 250px;
   outline: 0;
   font-family: "Montserrat";
   font-style: normal;
@@ -882,7 +852,6 @@ img {
   line-height: 1.25;
   color: #AB816C;
   border-bottom: 1px solid #AB816C;
-  margin-bottom: 20px;
 }
 .registration__name--dec::placeholder {
   color: rgba(171, 129, 108, 0.5);
@@ -894,6 +863,54 @@ img {
 @media screen and (max-width: 767px) {
   .registration {
     padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .registration__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .registration__fool {
+    display: block;
+    width: 266px;
+    padding-bottom: 32px;
+  }
+  .registration__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .registration__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .registration__text {
+    width: 255px;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 20px;
+  }
+  .registration__name--dec {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .registration__modal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .registration__group {
+    width: 260px;
+    padding: 0px 8px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -925,6 +942,11 @@ img {
     padding-top: 40px;
   }
   .registration__form {
+    display: flex;
+    flex-direction: row;
     background: #FFFFF9;
+  }
+  .registration__name--dec {
+    margin-bottom: 18px;
   }
 }/*# sourceMappingURL=main.css.map */
