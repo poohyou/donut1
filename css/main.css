@@ -149,6 +149,7 @@ img {
   font-family: "Caveat Brush";
   font-style: normal;
   font-weight: 400;
+  border: 0;
 }
 .btn-send--color {
   display: flex;
@@ -863,7 +864,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .registration {
-    padding-bottom: 32px;
+    padding-bottom: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1008,5 +1009,70 @@ img {
   .registration__bottom {
     padding-bottom: 54px;
     padding-left: 32px;
+  }
+}
+.contact__text {
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+}
+.contact__group {
+  color: rgba(171, 129, 108, 0.5);
+}
+.contact__mail {
+  padding: 0;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #AB816C;
+  border-bottom: 1px solid #AB816C;
+}
+.contact__coment {
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  height: 20px;
+  color: #AB816C;
+  border-bottom: 1px solid #AB816C;
+  resize: none;
+}
+.contact__mail::placeholder {
+  color: rgba(171, 129, 108, 0.5);
+}
+.contact__coment::placeholder {
+  color: rgba(171, 129, 108, 0.5);
+}
+
+.btn-send--contact {
+  display: block;
+  margin: auto;
+  padding: 9px 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .contact {
+    width: 100%;
+  }
+  .contact__text {
+    margin-bottom: 16px;
+  }
+  .contact__mail {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact__coment {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 32px;
   }
 }/*# sourceMappingURL=main.css.map */
