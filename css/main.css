@@ -295,9 +295,9 @@ img {
 @media screen and (max-width: 767px) {
   .backheader {
     background-image: url(/images/mob/back/bg.jpg);
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat;
     background-position: top;
-    background-size: 100% 18%;
+    background-size: 100% 14%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -305,7 +305,7 @@ img {
     background-image: url(/images/tablet/back/bg.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: top;
-    background-size: 100% 33%;
+    background-size: 100% 28%;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -313,7 +313,7 @@ img {
     background-image: url(/images/desc/back/bg.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: top;
-    background-size: 100% 37.5%;
+    background-size: 100% 32%;
   }
 }
 @media screen and (min-width: 320px) {
@@ -387,7 +387,7 @@ img {
     font-size: 18px;
     line-height: 23px;
     color: #AB816C;
-    background-color: white;
+    background-color: transparent;
     border: 0;
     padding: 0;
   }
@@ -398,7 +398,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
   }
   .about__pic {
     margin-bottom: 16px;
@@ -644,7 +643,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
 }
 
 .reviwes {
