@@ -1176,7 +1176,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .backheader {
-    background: bisque;
+    background-image: url(/images/tablet/back/bg.jpg), url(/images/tablet/back/bg2.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: top, right 0 bottom 20px;
     background-size: 100% 23%, 100% 53%;
@@ -1184,8 +1184,8 @@ img {
 }
 @media screen and (min-width: 1280px) {
   .backheader {
-    background: bisque;
-    background-image: url(/images/desc/back/bg.jpg), url(/images/desc/back/bg2.jpg);
+    background-color: #FFFFF9;
+    background-image: url(/images/desc/back/bg.png), url(/images/desc/back/bg2.png);
     background-repeat: no-repeat, no-repeat;
     background-position: top, right 0 bottom 10px;
     background-size: 100% 30%, 100% 50%;
