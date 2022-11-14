@@ -917,6 +917,9 @@ img {
   .about__title {
     text-align: center;
   }
+  .registration {
+    padding-bottom: 40px;
+  }
   .registration__fool {
     display: flex;
     align-items: center;
@@ -926,20 +929,28 @@ img {
     border-radius: 150px;
   }
   .registration__head {
-    padding-left: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     padding-right: 32px;
-    height: 180px;
+    padding-left: 20px;
+    width: 170px;
     border-right: 1px solid rgba(171, 129, 108, 0.5);
   }
   .registration__bottom {
     padding-left: 24px;
+    padding-bottom: 40px;
   }
   .registration__time {
+    text-align: end;
     width: 90px;
   }
   .registration__text {
     border: 0;
+    width: 200px;
     padding-top: 40px;
+    margin-bottom: 16px;
   }
   .registration__form {
     display: flex;
@@ -947,6 +958,13 @@ img {
     background: #FFFFF9;
   }
   .registration__name--dec {
+    width: 234px;
+  }
+  .registration__name--margin {
     margin-bottom: 18px;
+  }
+  .registration__modal {
+    width: 234px;
+    margin-right: 60px;
   }
 }/*# sourceMappingURL=main.css.map */

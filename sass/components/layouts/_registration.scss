@@ -176,6 +176,7 @@
     }
 
     .registration {
+        padding-bottom: 40px;
 
 
 
@@ -192,9 +193,14 @@
         }
 
         &__head {
-            padding-left: 62px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
             padding-right: 32px;
-            height: 180px;
+            padding-left: 20px;
+            width: 170px;
+            
 
             border-right: 1px solid rgba(171, 129, 108, 0.5);
 
@@ -204,9 +210,11 @@
         &__bottom {
            
             padding-left: 24px;
+            padding-bottom: 40px;
         }
 
         &__time {
+            text-align: end;
             width: 90px;
 
           
@@ -215,7 +223,10 @@
         &__text {
             border: 0;
 
+            width: 200px;
+
             padding-top: 40px;
+            margin-bottom: 16px;
         }
 
         &__form {
@@ -223,12 +234,25 @@
             flex-direction: row;
             
             background: #FFFFF9;
+
         }
 
         &__name--dec { 
-            margin-bottom: 18px;
+            width: 234px;
         }
 
+        &__name--margin {
+            margin-bottom: 18px;
+        }
+       
+
+
+        &__modal {
+            width: 234px;
+
+            margin-right: 60px;
+        }
+       
         
 
 
