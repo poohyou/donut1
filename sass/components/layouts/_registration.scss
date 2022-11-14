@@ -3,18 +3,44 @@
 
 .registration {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 
     &__form {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        background: #FFFFF9;
+    }
+
+    &__fool {
+        display: block;
+        background: #FFFFF9;
+        border-radius: 150px 150px 0px 0px;
+        box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+
+        width: 266px;
+
+        padding-bottom: 32px;
+       
     }
 
  
 
 
     &__head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__bottom {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -50,7 +76,7 @@
         font-size: 16px;
         line-height: 1.25;
 
-        width: 265px;
+        width: 255px;
 
         text-align: center;
 
@@ -61,11 +87,13 @@
         border-top: 1px solid rgba(171, 129, 108, 0.5);
     }
 
+    
+
     &__name--dec {
         padding: 0;
-        background-color: white;
+        background: #FFFFF9;
         border: 0;
-        width: 280px;
+        width: 250px;
         outline: 0;
 
 
@@ -80,9 +108,12 @@
        
 
          margin-bottom: 20px;
+         
 
         
     }
+
+  
 
     &__name--dec::placeholder {
         color: rgba(171, 129, 108, 0.5);
@@ -121,5 +152,69 @@
 
 
  }
+
+}
+
+
+@media screen and (min-width: 768px){ 
+
+    .about__title {
+        text-align: center;
+    }
+
+    .registration {
+
+
+
+        &__fool {
+            display: flex;
+            align-items: center;
+          
+
+            width: 704px;
+
+            background: #FFFFF9;
+            box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+            border-radius: 150px;
+        }
+
+        &__head {
+            padding-left: 62px;
+            padding-right: 32px;
+            height: 180px;
+
+            border-right: 1px solid rgba(171, 129, 108, 0.5);
+
+
+        }
+
+        &__bottom {
+            padding-left: 24px;
+        }
+
+        &__time {
+            width: 90px;
+
+          
+        }   
+
+        &__text {
+            border: 0;
+
+            padding-top: 40px;
+        }
+
+        &__form {
+            background: #FFFFF9;
+        }
+        
+
+
+    }
+
+    
+    
+
+
 
 }
