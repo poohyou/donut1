@@ -66,3 +66,26 @@
 
 }
 }
+
+
+@media screen and (min-width: 1280px) { 
+    .socials__footer {
+        margin-bottom: 80px;
+    }
+
+    .footer {
+        &__bottom {
+            width: 1280px;
+        }
+
+        &__phone {
+           margin-left: 145px;
+        }
+    
+        &__locetion {
+          margin-right: 321px;
+        }
+
+
+}
+}

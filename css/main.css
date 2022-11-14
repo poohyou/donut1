@@ -297,10 +297,10 @@ img {
 }
 @media screen and (max-width: 767px) {
   .backheader {
-    background-image: url(/images/mob/back/bg.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100% 14%;
+    background-image: url(/images/mob/back/bg.jpg), url(/images/mob/back/bg2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, right 0 bottom 185px;
+    background-size: 100% 13%, 100% 39%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -821,11 +821,6 @@ img {
 .registration__form {
   background: #FFFFF9;
 }
-.registration__fool {
-  background: #FFFFF9;
-  border-radius: 150px 150px 0px 0px;
-  box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
-}
 .registration__time {
   font-weight: 500;
   margin-top: 20px;
@@ -882,6 +877,11 @@ img {
     display: block;
     width: 266px;
     padding-bottom: 32px;
+  }
+  .registration__fool--mob {
+    background: #FFFFF9;
+    border-radius: 150px 150px 0px 0px;
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
   }
   .registration__head {
     display: flex;
@@ -1161,5 +1161,19 @@ img {
   }
   .footer__bottom {
     width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .socials__footer {
+    margin-bottom: 80px;
+  }
+  .footer__bottom {
+    width: 1280px;
+  }
+  .footer__phone {
+    margin-left: 145px;
+  }
+  .footer__locetion {
+    margin-right: 321px;
   }
 }/*# sourceMappingURL=main.css.map */
