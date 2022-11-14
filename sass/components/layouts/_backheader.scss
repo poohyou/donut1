@@ -24,12 +24,12 @@ background-image: url(/images/mob/back/bg.jpg), url(/images/mob/back/bg2.jpg);
 
 @media screen and (min-width: 768px) {
     .backheader {
-        background-image: url(/images/tablet/back/bg.jpg);
+        background-image: url(/images/tablet/back/bg.jpg), url(/images/tablet/back/bg2.jpg);
         background-repeat: no-repeat, no-repeat;
        
-        background-position: top;
-
-        background-size: 100% 28%;
+        background-position: top, right 0 bottom 20px;
+    
+        background-size: 100% 23%, 100% 53%;
     
     }
     
