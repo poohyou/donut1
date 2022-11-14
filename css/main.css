@@ -103,6 +103,7 @@ img {
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
+  border: 0;
   background-color: #AB816C;
 }
 @media screen and (min-width: 320px) {
@@ -112,14 +113,14 @@ img {
     border-radius: 25px;
     font-size: 18px;
     line-height: 1.27px;
-    padding: 0px 46px;
+    padding: 9px 46px;
   }
 }
 @media screen and (min-width: 768px) {
   .btn-register--color {
     font-size: 18px;
     line-height: 1.27px;
-    padding: 0px 46px;
+    padding: 9px 46px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -128,7 +129,7 @@ img {
     height: 45px;
     font-size: 24px;
     line-height: 1.25;
-    padding: 0px 44px;
+    padding: 8px 44px;
   }
 }
 
@@ -646,6 +647,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 280px;
+  padding-bottom: 48px;
 }
 .reviwes__hidden {
   display: none;
@@ -715,6 +717,7 @@ img {
   }
   .reviwes {
     width: 100%;
+    padding-bottom: 40px;
   }
   .reviwes__hidden {
     display: flex;
@@ -760,6 +763,7 @@ img {
   }
   .reviwes {
     width: 100%;
+    padding-bottom: 60px;
   }
   .reviwes__text--tablet {
     display: none;
@@ -805,5 +809,66 @@ img {
   .reviwes__pic--size {
     width: 285px;
     height: 285px;
+  }
+}
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.registration__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.registration__time {
+  font-weight: 500;
+  margin-top: 20px;
+}
+.registration__address {
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.registration__prise {
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.registration__text {
+  font-size: 16px;
+  line-height: 1.25;
+  width: 265px;
+  text-align: center;
+  padding-top: 8px;
+  margin-bottom: 20px;
+  border-top: 1px solid rgba(171, 129, 108, 0.5);
+}
+.registration__name--dec {
+  padding: 0;
+  background-color: white;
+  border: 0;
+  width: 280px;
+  outline: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #AB816C;
+  border-bottom: 1px solid #AB816C;
+  margin-bottom: 20px;
+}
+.registration__name--dec::placeholder {
+  color: rgba(171, 129, 108, 0.5);
+}
+.registration__btn {
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .registration {
+    padding-bottom: 32px;
   }
 }/*# sourceMappingURL=main.css.map */
