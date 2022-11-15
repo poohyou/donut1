@@ -9,7 +9,8 @@
 @media screen and (max-width: 767px) {
 
 .backheader {
-background-image: url(/images/mob/back/bg.jpg), url(/images/mob/back/bg2.jpg);
+    width: 100%;
+background-image: url(/images/mob/back/bg.svg), url(/images/mob/back/bg2.svg);
  background-repeat: no-repeat, no-repeat;
 
  background-position: top, right 0 bottom 185px;
