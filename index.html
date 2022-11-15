@@ -13,11 +13,11 @@
    
 </head>
 
-<body class="backheader">
+<body class="backheader donut">
 
 
 
-   
+  
 
 
 
@@ -25,10 +25,31 @@
 
     <div class="conteiner modal-header">
 
+      
+        
 
 
 
      <div class="reletive">
+
+        <div>
+            <picture class="donuts__top">
+                
+                <source srcset="./images/desc/header/pic.png 1x, ./images/desc/header/pic@2x.png 2x "
+                media="(min-width: 1280px)">
+    
+               
+                <source srcset="./images/tablet/header/pic.png 1x, ./images/tablet/header/pic@2x-1.png 2x "
+                media="(min-width: 768px)">
+    
+                
+                <source srcset="./images/mob/header/pic.png 1x, ./images/mob/header/pic@2x-1.png 2x "
+                media="(max-width: 767px)">
+    
+    
+                <img class="donuts__top--img" src="/images/mob/header/pic.png" alt="Donuts"/>
+              </picture>
+        </div>
 
         
 
@@ -55,25 +76,25 @@
 
         <ul class="navigation__dec">
             <li>
-                <p>About us</p>
+                <a class="navigation__dec--color" href="#about">About us</a>
             </li>
         </ul>
         
         <ul class="navigation__dec">
             <li>
-                <p>Program</p>
+                <a class="navigation__dec--color" href="#program">Program</a>
             </li>
         </ul>
         
         <ul class="navigation__dec">
             <li>
-                <p>Reviews</p>
+                <a class="navigation__dec--color" href="#reviews">Reviews</a>
             </li>
         </ul>
         
         <ul class="navigation__dec">
             <li>
-                <p>Contacts</p>
+                <a class="navigation__dec--color" href="#contacts">Contacts</a>
             </li>
         </ul>
         
@@ -106,7 +127,7 @@
 
         </svg>
 
-        <button type="button" class="menu__btn--modal" data-close-modal>
+        <button type="button" class="modal__menu--btn" data-close-modal>
 
             <svg class="menu__btn--close">
     
@@ -123,25 +144,25 @@
 
 <ul class="navigation__dec navigation__dec--modal">
     <li>
-        <p>About us</p>
+        <a class="navigation__dec--color" href="#about">About us</a>
     </li>
 </ul>
 
 <ul class="navigation__dec navigation__dec--modal">
     <li>
-        <p>Program</p>
+        <a class="navigation__dec--color" href="#program">Program</a>
     </li>
 </ul>
 
 <ul class="navigation__dec navigation__dec--modal">
     <li>
-        <p>Reviews</p>
+        <a class="navigation__dec--color" href="#reviews">Reviews</a>
     </li>
 </ul>
 
 <ul class="navigation__dec navigation__dec--modal">
     <li>
-        <p>Contacts</p>
+        <a class="navigation__dec--color" href="#contacts">Contacts</a>
     </li>
 </ul>
 
@@ -176,6 +197,8 @@
     <div class="conteiner hero">
 
 
+
+
         <h1 class="hero__title">Donut Masterclass with the Donut King</h1>
 
         <p class="hero__text">Hosted by Eva Green</p>
@@ -207,6 +230,10 @@
 
     </div>
 
+
+
+  
+
 </section>
 
 
@@ -224,7 +251,7 @@
 
 <!-- ========================================ABOUT============================================ -->
 
-<section class="conteiner about">
+<section class="conteiner about" id="about">
 
     <div class="about__pic">
         <picture class="about__img">
@@ -325,7 +352,7 @@ received multiple awards
 <section>
 
 
- <div class="conteiner program">
+ <div class="conteiner program" id="program">
 
 
     
@@ -545,7 +572,7 @@ received multiple awards
 
 
 <section>
-<div class="conteiner review-conteiner">
+<div class="conteiner review-conteiner" id="reviews">
 
     <h2 class="about__title">Reviews</h2>
 
@@ -794,7 +821,7 @@ received multiple awards
 <!--= =====================================СONTACT================================= =========-->
 
 <section>
-    <div class="contact conteiner">
+    <div class="contact conteiner" id="contacts">
 
 
 

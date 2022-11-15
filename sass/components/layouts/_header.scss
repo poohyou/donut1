@@ -1,5 +1,9 @@
 .navigation {
     display: none;
+
+    &__dec--color {
+        color: #2E2520;
+    }
 }
 
 
@@ -28,6 +32,15 @@
     justify-content: center;
     align-items: center;
 
+    &__menu--btn {
+        position: absolute;
+        background-color: transparent;
+        border: 0;
+    
+        width: 20px;
+        height: 20px;
+    }
+
 
     &__group {
         position: relative;
@@ -40,18 +53,13 @@
   
 }
 
+
+
 .navigation__modal {
     display: block;
 }
 
-.menu__btn--modal {
-    position: absolute;
-    background-color: transparent;
-    border: 0;
 
-    width: 20px;
-    height: 20px;
-}
 
 .navigation__dec--modal {
     font-weight: 500;
@@ -71,9 +79,11 @@
     
 
 @media screen and (min-width: 320px){
+
     .reletive {
-        width: 280px;
+        width: 320px;
     }
+
 
     .backdrop {
         display: flex;
@@ -105,7 +115,7 @@
             position: absolute;
             
             top: 15px;
-            right: 0px;
+            right: 15px;
         }
 
 
@@ -122,25 +132,45 @@
      }
 
     .modal {
+
+        &__menu--btn{
+            top: 15px;
+            right: 15px;
+        
+        }
        
-    
 
        &__group {
       
         width: 320px;
        }
 
+      
+       
   
 }
 
-.menu__btn--modal {
-    top: 15px;
-    right: 15px;
 
-}
 .navigation__dec--modal:not(:last-child) {
    margin-bottom: 45px;
 }
+
+
+.donuts__top {
+    position: absolute;
+    top: 0;
+     
+
+      &--img {
+      
+          width: 138px;
+
+          background-color: transparent;
+          
+      }
+  
+  }
+
 
 }
 
@@ -185,7 +215,7 @@
 
      .menu__btn--close {
         top: 20px;
-        right: 20px;
+        right: 30px;
      }
 
     .navigation__dec--modal:not(:last-child) {
@@ -196,6 +226,20 @@
         width: 18px;
         height: 18px;
      }
+
+     .donuts__top {
+        position: absolute;
+        top: 0;
+        right: 50px;
+       
+        width: 380px;
+       
+        &--img {     
+        width: 380px;
+            
+        }
+    
+    }
 }
 
 
@@ -204,6 +248,10 @@
 
 
 @media screen and (min-width: 1280px) {
+    .reletive {
+        width: 1280px;
+    }
+
   .backdrop {
     display: none;
   }
@@ -218,18 +266,24 @@
         padding-top: 58px;
         padding-bottom: 40px;
 
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.22;
-
-        color: #2E2520;
         gap: 20px;
 
         &__dec:hover {
             color:#876655;
         }
+
+        &__dec {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 1.22;
+        
+              
+            }
+
+         
+        
 
        }
 

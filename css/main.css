@@ -264,6 +264,9 @@ img {
 .navigation {
   display: none;
 }
+.navigation__dec--color {
+  color: #2E2520;
+}
 
 @media screen and (max-width: 1279px) {
   .modal-header {
@@ -283,6 +286,13 @@ img {
   justify-content: center;
   align-items: center;
 }
+.modal__menu--btn {
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+  width: 20px;
+  height: 20px;
+}
 .modal__group {
   position: relative;
   display: flex;
@@ -292,14 +302,6 @@ img {
 
 .navigation__modal {
   display: block;
-}
-
-.menu__btn--modal {
-  position: absolute;
-  background-color: transparent;
-  border: 0;
-  width: 20px;
-  height: 20px;
 }
 
 .navigation__dec--modal {
@@ -315,7 +317,7 @@ img {
 
 @media screen and (min-width: 320px) {
   .reletive {
-    width: 280px;
+    width: 320px;
   }
   .backdrop {
     display: flex;
@@ -340,7 +342,7 @@ img {
     height: 16px;
     position: absolute;
     top: 15px;
-    right: 0px;
+    right: 15px;
   }
   .menu__btn--close {
     width: 30px;
@@ -349,15 +351,23 @@ img {
     top: 0px;
     right: 0px;
   }
-  .modal__group {
-    width: 320px;
-  }
-  .menu__btn--modal {
+  .modal__menu--btn {
     top: 15px;
     right: 15px;
   }
+  .modal__group {
+    width: 320px;
+  }
   .navigation__dec--modal:not(:last-child) {
     margin-bottom: 45px;
+  }
+  .donuts__top {
+    position: absolute;
+    top: 0;
+  }
+  .donuts__top--img {
+    width: 138px;
+    background-color: transparent;
   }
 }
 @media screen and (min-width: 768px) {
@@ -375,7 +385,7 @@ img {
   }
   .menu__btn--close {
     top: 20px;
-    right: 20px;
+    right: 30px;
   }
   .navigation__dec--modal:not(:last-child) {
     margin-bottom: 40px;
@@ -384,8 +394,20 @@ img {
     width: 18px;
     height: 18px;
   }
+  .donuts__top {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 380px;
+  }
+  .donuts__top--img {
+    width: 380px;
+  }
 }
 @media screen and (min-width: 1280px) {
+  .reletive {
+    width: 1280px;
+  }
   .backdrop {
     display: none;
   }
@@ -397,16 +419,17 @@ img {
     padding-left: 339px;
     padding-top: 58px;
     padding-bottom: 40px;
+    gap: 20px;
+  }
+  .navigation__dec:hover {
+    color: #876655;
+  }
+  .navigation__dec {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
-    color: #2E2520;
-    gap: 20px;
-  }
-  .navigation__dec:hover {
-    color: #876655;
   }
 }
 @media screen and (min-width: 320px) {
@@ -423,6 +446,7 @@ img {
     font-size: 30px;
     line-height: 1.26;
     margin-bottom: 8px;
+    z-index: 100;
   }
   .hero__text {
     display: flex;
@@ -1281,6 +1305,7 @@ img {
     background-repeat: no-repeat, no-repeat;
     background-position: top, right 0 bottom 185px;
     background-size: 100% 13%, 100% 39%;
+    z-index: 100;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1289,6 +1314,7 @@ img {
     background-repeat: no-repeat, no-repeat;
     background-position: top, right 0 bottom 20px;
     background-size: 100% 23%, 100% 53%;
+    z-index: 100;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1298,5 +1324,6 @@ img {
     background-repeat: no-repeat, no-repeat;
     background-position: top, right 0 bottom 10px;
     background-size: 100% 30%, 100% 50%;
+    z-index: 100;
   }
 }/*# sourceMappingURL=main.css.map */
