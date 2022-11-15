@@ -80,8 +80,14 @@
 
 @media screen and (min-width: 320px){
 
+    .modal__group { 
+        width: 280px;
+        padding: 0px 20px;
+    }
+    
+
     .reletive {
-        width: 320px;
+        width: 280px;
     }
 
 
@@ -262,9 +268,11 @@
 
     .navigation {
         display: flex;
-        padding-left: 339px;
+        padding-left: 330px;
         padding-top: 58px;
         padding-bottom: 40px;
+
+        width: 100%;
 
         gap: 20px;
 
@@ -286,5 +294,23 @@
         
 
        }
+
+    //    .donuts__top {
+    //     position: absolute;
+    //     top: 0;
+    //     right: 90px;
+      
+       
+        
+    //     width: 760px;
+       
+    //     &--img {     
+    //         position: absolute;
+      
+    //     width: 750px;
+        
+    //     }
+    
+    // }
 
 }
