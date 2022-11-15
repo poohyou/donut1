@@ -255,7 +255,7 @@
 
 @media screen and (min-width: 1280px) {
     .reletive {
-        width: 1280px;
+        width: 100%;
     }
 
   .backdrop {
@@ -295,22 +295,22 @@
 
        }
 
-    //    .donuts__top {
-    //     position: absolute;
-    //     top: 0;
-    //     right: 90px;
+       .donuts__top {
+        position: absolute;
+        top: 0;
+        right: 0;
       
        
         
-    //     width: 760px;
+        width: 760px;
        
-    //     &--img {     
-    //         position: absolute;
+        &--img {     
+            position: absolute;
       
-    //     width: 750px;
+        width: 760px;
         
-    //     }
+        }
     
-    // }
+    }
 
 }

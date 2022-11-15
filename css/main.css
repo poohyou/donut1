@@ -409,7 +409,7 @@ img {
 }
 @media screen and (min-width: 1280px) {
   .reletive {
-    width: 1280px;
+    width: 100%;
   }
   .backdrop {
     display: none;
@@ -434,6 +434,16 @@ img {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
+  }
+  .donuts__top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 760px;
+  }
+  .donuts__top--img {
+    position: absolute;
+    width: 760px;
   }
 }
 @media screen and (min-width: 320px) {
@@ -1325,7 +1335,7 @@ img {
 @media screen and (min-width: 1280px) {
   .backheader {
     background-color: #FFFFF9;
-    background-image: url(/images/desc/back/bg.png), url(/images/desc/back/bg2.png);
+    background-image: url(/images/desc/back/bg.jpg), url(/images/desc/back/bg2.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: top, right 0 bottom 10px;
     background-size: 100% 30%, 100% 50%;
