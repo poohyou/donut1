@@ -1306,7 +1306,7 @@ img {
 @media screen and (max-width: 767px) {
   .backheader {
     width: 100%;
-    background-image: url(/images/mob/back/bg.svg), url(/images/mob/back/bg2.svg);
+    background-image: url(/images/mob/back/bg.jpg), url(/images/mob/back/bg2.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: top, right 0 bottom 185px;
     background-size: 100% 13%, 100% 39%;
