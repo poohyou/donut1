@@ -3,6 +3,7 @@
 
 
 .conteiner__footer {
+    
         display: flex;
         align-items: center;
         justify-content: center;
@@ -34,6 +35,65 @@
         color: #2E2520;
     }
 }
+
+
+
+
+@media screen and (min-width: 320px) {
+
+    .plate__pic {
+
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 0;
+       
+     
+   
+        
+        background-image:url(/images/mob/plate/pic.png);
+        background-repeat: no-repeat;
+        
+        background-size: contain;
+       
+
+        
+
+
+
+    }
+
+
+
+ @media (main-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .plate__pic {
+            position: absolute;
+            background-image:url(/images/mob/plate/pic@2x.png);
+            
+            background-size: contain;
+          
+           
+           
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
