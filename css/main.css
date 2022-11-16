@@ -917,11 +917,6 @@ img {
     line-height: 1.22;
     margin-bottom: 32px;
   }
-  .reviwes__star--desc {
-    position: absolute;
-    left: 195px;
-    bottom: 175px;
-  }
   .reviwes__hidden--one {
     left: 110px;
     top: 160px;
@@ -938,10 +933,6 @@ img {
   .reviwes__name {
     font-size: 16px;
     line-height: 1.25;
-  }
-  .reviwes__name--desc {
-    display: inline-block;
-    width: 350px;
   }
   .reviwes__pic--size {
     width: 285px;
