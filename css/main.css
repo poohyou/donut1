@@ -529,6 +529,9 @@ img {
     justify-content: center;
     align-items: center;
   }
+  .about__spoon {
+    display: none;
+  }
   .about__pic {
     margin-bottom: 16px;
   }
@@ -577,9 +580,22 @@ img {
     display: inline;
   }
   .about {
+    position: relative;
     justify-content: space-around;
     padding-top: 110px;
     padding-bottom: 40px;
+  }
+  .about__spoon {
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 400px;
+    left: -100px;
+    bottom: -50px;
+  }
+  .about__spoon--dec {
+    width: 200px;
+    height: 400px;
   }
   .about__text--deck {
     display: inline;
