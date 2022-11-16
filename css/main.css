@@ -792,6 +792,7 @@ img {
   width: 280px;
   height: 280px;
   margin-top: 12px;
+  border-radius: 50%;
 }
 .reviwes__star {
   width: 136px;
@@ -1259,11 +1260,15 @@ img {
   margin-bottom: 32px;
 }
 
+.footer {
+  position: relative;
+}
 .footer__bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 20px;
+  width: 280px;
 }
 .footer__phone {
   color: #2E2520;
@@ -1274,24 +1279,20 @@ img {
   font-size: 16px;
   line-height: 1.25;
   color: #2E2520;
+  z-index: 50;
 }
 
 @media screen and (min-width: 320px) {
   .plate__pic {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    right: 0;
-    background-image: url(/images/mob/plate/pic.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 80px;
+    height: 60px;
+    bottom: 0;
+    right: -20px;
   }
-}
-@media screen and (min-width: 320px) and (main-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
-  .plate__pic {
-    position: absolute;
-    background-image: url(/images/mob/plate/pic@2x.png);
-    background-size: contain;
+  .plate__pic--img {
+    width: 80px;
+    height: 60px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1315,6 +1316,17 @@ img {
   }
   .footer__locetion {
     margin-right: 116px;
+  }
+  .plate__pic {
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    bottom: 0;
+    right: 0;
+  }
+  .plate__pic--img {
+    width: 200px;
+    height: 120px;
   }
 }
 @media screen and (min-width: 1280px) {
