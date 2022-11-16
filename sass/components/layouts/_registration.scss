@@ -98,6 +98,10 @@
         display: none;
     }
 
+    .confeti {
+        display: none;
+    }
+
 
     .registration {
         padding-bottom: 16px;
@@ -190,6 +194,15 @@
        
        z-index: -1;
 
+    }
+
+
+    .confeti {
+        position: absolute;
+        z-index: -2;
+
+        right: 0;
+        top: 90px;
     }
        
 
@@ -310,9 +323,18 @@
             width: 250px;
             height: 250px;
         }
-
-        
      }
+
+     .confeti {
+        right: 0;
+        top: 90px;
+
+        width: 500px;
+
+        &__pic {
+            width: 500px;
+        }
+    }
 
     .registration {
         display: flex;

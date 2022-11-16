@@ -996,6 +996,9 @@ img {
   .choko {
     display: none;
   }
+  .confeti {
+    display: none;
+  }
   .registration {
     padding-bottom: 16px;
     display: flex;
@@ -1059,6 +1062,12 @@ img {
     left: 0;
     top: -10px;
     z-index: -1;
+  }
+  .confeti {
+    position: absolute;
+    z-index: -2;
+    right: 0;
+    top: 90px;
   }
   .about__title {
     text-align: center;
@@ -1126,6 +1135,14 @@ img {
   .choko__pic {
     width: 250px;
     height: 250px;
+  }
+  .confeti {
+    right: 0;
+    top: 90px;
+    width: 500px;
+  }
+  .confeti__pic {
+    width: 500px;
   }
   .registration {
     display: flex;
