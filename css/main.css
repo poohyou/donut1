@@ -438,7 +438,8 @@ img {
   .donuts__top {
     position: absolute;
     top: 0;
-    right: -19px;
+    left: auto;
+    right: 0;
     width: 760px;
   }
   .donuts__top--img {
