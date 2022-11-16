@@ -400,7 +400,7 @@ img {
   .donuts__top {
     position: absolute;
     top: 0;
-    right: 50px;
+    left: 250px;
     width: 380px;
   }
   .donuts__top--img {
