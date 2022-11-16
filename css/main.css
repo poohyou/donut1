@@ -1303,6 +1303,7 @@ img {
 
 .footer {
   position: relative;
+  background-size: contain;
 }
 .footer__bottom {
   display: flex;
