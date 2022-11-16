@@ -1326,13 +1326,13 @@ img {
 @media screen and (min-width: 320px) {
   .plate__pic {
     position: absolute;
-    width: 80px;
+    width: 100px;
     height: 60px;
-    bottom: 0;
-    right: -20px;
+    bottom: 0px;
+    right: -40px;
   }
   .plate__pic--img {
-    width: 80px;
+    width: 100px;
     height: 60px;
   }
 }
