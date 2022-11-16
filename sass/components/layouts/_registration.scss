@@ -73,6 +73,12 @@
     
     }
 
+    &__fool {
+        z-index: 150;
+    }
+
+
+
     
     
 
@@ -87,6 +93,10 @@
 
 
 @media screen and (max-width: 767px){
+
+    .choko {
+        display: none;
+    }
 
 
     .registration {
@@ -173,11 +183,24 @@
 
 @media screen and (min-width: 768px){ 
 
+    .choko {
+       position: absolute;
+       left: 0;
+       top: -10px;
+       
+       z-index: -1;
+
+    }
+       
+
+     
+
     .about__title {
         text-align: center;
     }
 
     .registration {
+        position: relative;
         padding-bottom: 40px;
 
 
@@ -185,9 +208,13 @@
         &__fool {
             display: flex;
             align-items: center;
+
+           
           
 
             width: 704px;
+
+            
 
             background: #FFFFF9;
             box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
@@ -202,6 +229,8 @@
             padding-right: 32px;
             padding-left: 20px;
             width: 170px;
+
+            z-index: 100;
             
 
             border-right: 1px solid rgba(171, 129, 108, 0.5);
@@ -268,6 +297,23 @@
 
 
 @media screen and (min-width: 1280px){ 
+
+    .choko {
+        left: 80px;
+        top: 20px;
+
+        width: 250px;
+        height: 250px;
+      
+
+        &__pic {
+            width: 250px;
+            height: 250px;
+        }
+
+        
+     }
+
     .registration {
         display: flex;
         flex-direction: column;

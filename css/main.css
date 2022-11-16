@@ -988,8 +988,14 @@ img {
 .registration__btn {
   margin-top: 12px;
 }
+.registration__fool {
+  z-index: 150;
+}
 
 @media screen and (max-width: 767px) {
+  .choko {
+    display: none;
+  }
   .registration {
     padding-bottom: 16px;
     display: flex;
@@ -1048,10 +1054,17 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
+  .choko {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    z-index: -1;
+  }
   .about__title {
     text-align: center;
   }
   .registration {
+    position: relative;
     padding-bottom: 40px;
   }
   .registration__fool {
@@ -1070,6 +1083,7 @@ img {
     padding-right: 32px;
     padding-left: 20px;
     width: 170px;
+    z-index: 100;
     border-right: 1px solid rgba(171, 129, 108, 0.5);
   }
   .registration__bottom {
@@ -1103,6 +1117,16 @@ img {
   }
 }
 @media screen and (min-width: 1280px) {
+  .choko {
+    left: 80px;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+  }
+  .choko__pic {
+    width: 250px;
+    height: 250px;
+  }
   .registration {
     display: flex;
     flex-direction: column;
@@ -1341,6 +1365,17 @@ img {
   }
   .footer__locetion {
     margin-right: 321px;
+  }
+  .plate__pic {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+    right: 0;
+  }
+  .plate__pic--img {
+    width: 300px;
+    height: 200px;
   }
 }
 @media screen and (max-width: 767px) {
