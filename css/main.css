@@ -1442,6 +1442,6 @@ img {
     background-repeat: no-repeat, no-repeat;
     background-position: top, right 0 bottom 10px;
     background-size: 100% 30%, 100% 50%;
-    z-index: 100;
+    z-index: 110;
   }
 }/*# sourceMappingURL=main.css.map */
